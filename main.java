@@ -1,4 +1,4 @@
-public abstract class Shape implements Cloneable, Comparable<Shape> {
+private abstract class Shape implements Cloneable, Comparable<Shape> {
  
     // attributes
  
