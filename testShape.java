@@ -5,9 +5,9 @@ public class testShape {
 
     @Test
     public void testConcatenate() {
-        MyUnit myUnit = new MyUnit();
+        MyUnit testShape = new testShape();
 
-        String result = myUnit.concatenate("one", "two");
+        String result = testShape.concatenate("one", "two");
 
         assertEquals("onetwo", result);
 
