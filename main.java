@@ -8,7 +8,7 @@ public class main {
         System.out.println("Hello World!");
     }
 }
-class Shape implements Cloneable, Comparable<Shape> {
+class Shape {
  
     // attributes
  
