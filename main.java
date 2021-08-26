@@ -24,7 +24,7 @@ class Shape {
         this.color = x;
  
     }
-    public void toString(){
-    System.out.println("Color: " + this.color);
+    public String toString(){
+    return ("Color: " + this.color);
     }
 }
