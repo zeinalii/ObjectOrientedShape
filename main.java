@@ -21,7 +21,7 @@ class Shape {
  
     protected Shape() {
  
-        continue;
+        this.color = "red";
  
     }
 }
