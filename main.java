@@ -4,24 +4,27 @@ public class main {
  
     public static void main(String[] args) throws CloneNotSupportedException{
  
-        Shape [] shapes1 = new Shape[5];
-        System.out.println("Hello World!");
+        Shape shapes1 = new Shape("Red");
+        System.out.println(shapes1);
     }
 }
 class Shape {
  
     // attributes
  
-    private String color;
+     String color;
  
-    private boolean filled;
+     boolean filled;
  
  
     // constructors
  
-    protected Shape() {
+    public Shape(String x) {
  
-        this.color = "red";
+        this.color = x;
  
+    }
+    public void toString(){
+    System.out.println("Color: " + this.color);
     }
 }
