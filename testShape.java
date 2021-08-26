@@ -1,3 +1,5 @@
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 
 
@@ -144,7 +146,10 @@ class Circle extends Shape {
 
 
 public class testShape {
-    public static void main(String[] args) {
-        System.out.println("hi");
+    @Test
+    public void test_JUnit() {
+        System.out.println("This is the testcase in this class");
+        String str1="This is the testcase in this class";
+        assertEquals("This is the testcase in this class", str1);
     }
 }
